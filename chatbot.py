@@ -5,6 +5,8 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import RegexpTokenizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
 
 # Download stopwords only (no punkt needed)
 nltk.download('stopwords')
